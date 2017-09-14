@@ -1,0 +1,463 @@
+/* start with main rules */
+body {  
+    height: 2000px;
+}
+.container {
+    width:1170px;
+    margin: auto
+}
+.clearfix { clear: both; }
+
+/* end main rules */
+
+/* start header */
+
+.header .slider {
+    background-color: #EEE;
+    background-image: url(../Images/road.jpg);
+    -webkit-background-image: url(../Images/road.jpg);
+    -moz-background-image: url(../Images/road.jpg);
+    -o-background-image: url(../Images/road.jpg);
+    background-size: cover;
+    height: 600px;
+
+}
+.header .slider .intro {
+    padding-top: 200px;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+
+
+}
+.header .slider .intro h2 {
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-bottom: 4px solid #fff;
+    border-top: 4px solid #fff;
+    padding: 5px 0;
+}
+.header .slider .intro button {
+    background: none;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    padding: 10px 30px;
+    text-decoration: none;
+
+}
+
+/*.header .slider .intro button a { color: #fff; text-decoration: none; }
+.header .slider .intro button a:active { color: #D89851; }*/
+
+.header .navbar {
+    background-color: #252F31;
+    color: #fff;
+    overflow: hidden
+
+}
+.header .navbar h2 { float: left; text-transform: uppercase }
+.header .navbar h2 span { color:#2E9961 }
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li { float: left; padding: 10px }
+.header .navbar ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+    color: #2DC86C;
+}
+
+/* end header */
+
+/* start features */
+.features{
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+
+.features .feat {
+    float: left;
+    width: 33.3333%;
+    height: 150px;
+}
+
+.features .feat h2 {
+    color: #566465;
+}
+.features .feat p {
+    line-height: 1.7;
+    color: #828282;
+    font-family: fantasy;
+}
+/* end features */
+
+/* start about me */
+
+.about-me {
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+.about-me .image { float: left; width: 40%; }
+.about-me .image img { width:100% }
+.about-me .info { 
+    float: right; 
+    width: 60%; 
+} 
+.about-me .info h2 {
+    margin: 25px 0 20px 40px;
+    color: #566465;
+}
+.about-me .info > p {
+    margin: 0 0 10px 40px;
+    font-family: fantasy;
+}
+.about-me .info > p:last-of-type {
+    margin-top: 25px;
+    font-family: fantasy;
+}
+.about-me .info p {
+    line-height: 1.5;
+    color: #546265;
+    font-family: fantasy;
+}
+.about-me .info .hobbies {
+    overflow: hidden;
+    margin: 15px 0 0px 40px;
+}
+
+.about-me .info .hobbies .content {
+    width: 50%;
+    float: left;
+    min-height: 100px; 
+    overflow: hidden
+}
+
+.about-me .info .hobbies .content .icon { float: left; width: 12%; margin-right: 5% }
+
+.about-me .info .hobbies .content .icon img { max-width: 100%; margin: 40px 20px 0 0 }
+
+.about-me .info .hobbies .content .text { float: left; width: 83% }
+
+.about-me .info .hobbies .content .text p { margin-top: 0; font-family: fantasy }
+
+.about-me .info .hobbies .content .text h3 { color: #566465; margin-bottom: 8px }
+
+/* end about me */
+
+/* start my skills */
+
+.mySkills {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    
+}
+.mySkills .skills, 
+.mySkills .progress {
+    width: 50%;
+    float: left;
+}
+.mySkills .skills h2 {
+    margin: 25px 0 20px 20px;
+    color: #566465;
+    text-transform: uppercase
+}
+.mySkills .skills p {
+    margin: 0 0 10px 20px;
+    line-height: 1.5;
+    color: #546265;
+    font-family: fantasy;
+}
+.mySkills .skills p:last-of-type {
+    font-family: fantasy;
+    margin-top: 25px;
+}
+.mySkills .skills button {
+    margin-top: 20px;
+    margin-left: 20px
+}
+.mySkills .progress .tech { margin-left: 50px }
+
+.mySkills .progress .tech h3 { color : #566465 }
+
+.mySkills .progress .tech div {
+    background-color: #F2F2F2;
+    height: 25px
+}
+.mySkills .progress .tech div span {
+    background-color: #2DCC70;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* end my skills */
+
+/* start resume*/
+.resume {
+    background-color: #F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center
+}
+.resume h2, .resume p { 
+    color:#566465; 
+    line-height: 1.7;
+    font-family: fantasy;
+}
+.resume button { margin-top: 20px; }
+
+/* end resume*/
+
+
+/* #586365 start my education */
+
+.myEducation {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden
+    
+}
+.myEducation hr {
+    margin: 20px 0; 
+    background-color: #999;
+    height: 1px;
+    border: 0
+}
+.myEducation .main {
+    width: 50%;
+    float: left;
+    margin-right: 5%
+} 
+
+.myEducation .main h2 {
+    margin: 25px 0 20px 20px;
+    color: #566465;
+}
+.myEducation .main p {
+    margin: 0 0 10px 20px;
+    line-height: 1.5;
+    color: #546265;
+    font-family: fantasy;
+}
+.myEducation .main p:last-of-type {
+    margin-top: 25px;
+    font-family: fantasy;
+}
+.myEducation .exp {
+    width: 45%;
+    float: left;
+}
+.myEducation .exp h3 { 
+    margin-top: 80px;
+    margin-bottom: 10px;
+    color: #546265;
+}
+
+.myEducation .exp span {
+    display: block;
+    margin-bottom: 10px
+}
+
+.myEducation .exp span:first-of-type {
+    color: #546265;
+}
+.myEducation .exp span:last-of-type {
+    font-weight: bold;
+    background-color: #2DCC70;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px
+}
+
+.myEducation .exp p {
+    color: #546265;
+    line-height: 1.7;
+    font-family: fantasy;
+}
+
+
+/* end my education */
+
+/* start testimonials*/
+
+.testimonials {
+    background-color: #F2F2F2;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+
+}
+.testimonials h3 { 
+    color:#546265;
+    padding-top: 20px;
+    font-family:cursive;
+    margin-bottom: 30px;
+}
+.testimonials ul {
+    list-style: none;
+    padding-left: 0
+}
+
+.testimonials q {
+    color:#929292;
+    line-height: 1.7;
+    font: italic bold 18px/1.8 sans-serif; /* Style * Weight * Size/Height * Family */
+    text-align: center
+}
+.testimonials ul li {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #2DCC70;
+    display: inline-block;
+    cursor: pointer;
+}
+.testimonials ul li.active,
+.testimonials ul li:hover { background-color: #2DCC70;}
+
+/* end testimonials*/
+
+/*start portfolio */
+
+.portfolio {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center
+    
+}
+.portfolio h2 {
+    color: #546265;
+}
+.portfolio p {
+    color: #546265;
+    line-height: 1.7;
+    margin-bottom: 30px    
+}
+
+.portfolio .ourWork { overflow: hidden }
+
+.portfolio .ourWork > div {
+    float: left;
+    width:33.3333%;
+    margin-bottom: 10px;
+}
+.portfolio .ourWork > div img {
+    width: 92%;
+    margin: 10px;
+    padding: 3px;
+    background-color:#FFF;
+    border: 1px solid #CCC;
+    box-shadow: 5px 10px 12px #CCC;
+}
+
+
+/*End portfolio */
+
+/*start contact me */
+
+
+.contact {
+    background-color: #252F31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px
+}
+
+.contact .info {
+    width: 50%;
+    float: left;
+    margin-right: 5%
+}
+
+.contact h2 { color: aliceblue; margin-left: 40px}
+
+.contact p { 
+    color:#929292; 
+    margin-left: 40px; 
+    line-height: 1.7
+}
+
+.contact p > strong { color: #FFF }
+
+.contact span {margin-left: 40px; color:#929292; }
+
+.contact .form {
+    width: 45%;
+    float: left
+}
+
+.contact .form label {
+    display: block;
+    color: #FFF;
+    margin: 10px 0px
+}
+.contact .form input[type="text"] {
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    width: 75%;
+    margin-bottom: 10px
+}
+.contact .form textarea {
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    width: 75%;
+    margin-bottom: 10px;
+    height: 300px    
+}
+.contact .form input[type="submit"] {
+    background-color: #191E21;
+    color: #FFF;
+    border: 0;
+    padding: 10px 20px;
+    margin-top: 10px
+}
+
+/*end contact me */
+
+/* start footer */
+
+.footer {
+    background-color: #191E21;
+    color: #4C5658;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* end footer */
+
+/* start my framework */
+
+.myButton {
+    padding: 10px 30px;
+    color: #2DCC70;
+    background: none;
+    border: 3px solid #2DCC70;
+    font-weight: bold
+}
+
+/* end my framework */
+
+
+
+
+
+

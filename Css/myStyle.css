@@ -1,0 +1,185 @@
+/* start global */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Tahoma;
+}
+ul {
+    list-style: none;
+}
+.clearfix {
+    clear: both;
+}
+/* end global */
+
+/* start header */
+
+.main {
+    background-color: #333;
+    color: #DDD;
+    padding: 20px;
+    text-align: center;
+}
+
+/* end header */
+
+/* start nav */
+
+nav {
+    background-color: #DDD; 
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 3px;
+}
+nav ul li:after {
+    content: " |";
+} 
+nav ul li:last-child:after {
+    content: "";
+}
+nav ul {
+    padding: 20px;
+}
+
+/* end nav */
+
+/* start main */ 
+
+main {
+    background-color: #eee;
+    padding: 20px;
+}
+main p {
+    text-align: center;
+}
+main p mark {
+    background-color: #00F;
+    color: #FFF;
+}
+main p span {
+    font-weight: bold;
+    color: #666;
+} 
+/* end main */
+
+/* start article */
+
+.posts {
+    float: left;
+    width: 70%;
+}
+
+.posts article {
+    background-color: #F2F2F2;
+    border: 1px solid #CCC;
+    margin: 20px
+}
+.posts article header {
+    background-color: #e4e4e4;
+    padding: 10px;
+}
+.posts article section {
+    padding: 10px;
+}
+.posts article section details {
+    margin: 10px 0;
+}
+.posts article section .long-link {
+    width: 200px
+}
+.posts article section code {
+    background-color: #FFF;
+    padding: 10px;
+    display: block;
+    max-width: 500px;
+    margin: 10px 0;
+    border: 1px solid #CCC;
+}
+.posts article section .img-fig {
+    background-color: #FFF;
+    padding: 10px;
+    margin-top: 10px;
+    width: 850px;
+    text-align: center;
+}
+.posts article section .img-fig img {
+    border: 1px solid #CCC;
+    padding: 3px;
+    background-color: #FFF;
+}
+.posts article section .html5-form input {
+    display: block;
+    margin-bottom: 10px;
+} 
+/* end article */
+
+/* start sidebar */
+
+aside {
+    float: right;
+    width: 30%;
+}
+aside dialog {
+    position: fixed;
+    left: 0;
+    top: 0
+}
+aside section {
+    background-color: #EEE;
+    margin: 20px 10px;
+    border: 1px solid #CCC;
+    padding: 10px;
+    margin-bottom: 20px
+}
+aside section h3 {
+    background-color: #d1d1d1;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+aside section ul li {
+    line-height: 1.6;
+}
+
+/* end sidebar */
+
+/* start footer */
+
+footer {
+    background-color: #333;
+    color: #DDD;
+    padding: 10px;
+    text-align: center;
+}
+/* end footer */
+
+/* start svg */
+
+p {
+    color: aqua;
+}
+
+
+
+
+/* end svg */
+
+
+
+
+
+
+
+
+
+
